@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>else-if ladder</title>
+  </head>
+  <body>
+    <script>
+      let distance = +prompt();
+      if (distance > 0 && distance <= 5) {
+        console.log("Your taxi fare is $5");
+        alert("Your taxi fare is $5")
+    } 
+    else if (distance > 5 && distance <= 10) {
+        console.log("Your taxi fare is $10");
+        alert("Your taxi fare is $10")
+    }
+    else if (distance > 11 && distance <= 20) {
+        console.log("Your taxi fare is $20");
+        alert("Your taxi fare is $20")
+    } 
+    else if (distance > 20) {
+        console.log("Your taxi fare is $20 and +5 for every kilometer");
+        alert("Your taxi fare is $20 and +5 for every kilometer");
+    }
+    </script>
+  </body>
+</html>

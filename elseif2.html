@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      let items = +prompt();
+      if (items > 0 && items <= 5) {
+        console.log("No discount");
+        alert("No Discount")
+      } else if (items >= 6 && items <= 10) {
+        console.log("5% discount");
+        alert("You will get 5% Discount")
+      } else if (items >= 11 && items <= 20) {
+        console.log("10% discount");
+        alert("You will get 10% Discount")
+      } else if (items > 20) {
+        console.log("20% discount");
+        alert("You will get 20% Discount")
+      }
+    </script>
+  </body>
+</html>
